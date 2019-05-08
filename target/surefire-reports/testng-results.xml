@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="3" ignored="0" total="7" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="demopro" duration-ms="112361" started-at="2019-05-04T08:41:58Z" finished-at="2019-05-04T08:43:50Z">
+  <suite name="demopro" duration-ms="163018" started-at="2019-05-04T10:52:20Z" finished-at="2019-05-04T10:55:03Z">
     <groups>
     </groups>
-    <test name="BankigAppTest" duration-ms="112361" started-at="2019-05-04T08:41:58Z" finished-at="2019-05-04T08:43:50Z">
+    <test name="BankigAppTest" duration-ms="163018" started-at="2019-05-04T10:52:20Z" finished-at="2019-05-04T10:55:03Z">
       <class name="com.demo.testCases.TC_LoginDDT_002">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.demo.testCases.TC_LoginDDT_002@70a9f84e]" name="setup" is-config="true" duration-ms="9177" started-at="2019-05-04T08:42:13Z" finished-at="2019-05-04T08:42:22Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.demo.testCases.TC_LoginDDT_002@70a9f84e]" name="setup" is-config="true" duration-ms="12722" started-at="2019-05-04T10:52:58Z" finished-at="2019-05-04T10:53:10Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.demo.testCases.TC_LoginDDT_002@70a9f84e]" name="loginDDT" duration-ms="16532" started-at="2019-05-04T08:42:24Z" data-provider="LoginData" finished-at="2019-05-04T08:42:40Z">
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.demo.testCases.TC_LoginDDT_002@70a9f84e]" name="loginDDT" duration-ms="17375" started-at="2019-05-04T10:53:21Z" data-provider="LoginData" finished-at="2019-05-04T10:53:38Z">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method status="FAIL" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.demo.testCases.TC_LoginDDT_002@70a9f84e]" name="loginDDT" duration-ms="8268" started-at="2019-05-04T08:42:40Z" data-provider="LoginData" finished-at="2019-05-04T08:42:48Z">
+        <test-method status="FAIL" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.demo.testCases.TC_LoginDDT_002@70a9f84e]" name="loginDDT" duration-ms="9668" started-at="2019-05-04T10:53:38Z" data-provider="LoginData" finished-at="2019-05-04T10:53:48Z">
           <params>
             <param index="0">
               <value>
@@ -92,7 +92,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method status="FAIL" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.demo.testCases.TC_LoginDDT_002@70a9f84e]" name="loginDDT" duration-ms="8007" started-at="2019-05-04T08:42:49Z" data-provider="LoginData" finished-at="2019-05-04T08:42:57Z">
+        <test-method status="FAIL" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.demo.testCases.TC_LoginDDT_002@70a9f84e]" name="loginDDT" duration-ms="10344" started-at="2019-05-04T10:53:49Z" data-provider="LoginData" finished-at="2019-05-04T10:54:00Z">
           <params>
             <param index="0">
               <value>
@@ -150,7 +150,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.demo.testCases.TC_LoginDDT_002@70a9f84e]" name="loginDDT" duration-ms="15209" started-at="2019-05-04T08:42:57Z" data-provider="LoginData" finished-at="2019-05-04T08:43:12Z">
+        <test-method status="PASS" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.demo.testCases.TC_LoginDDT_002@70a9f84e]" name="loginDDT" duration-ms="18750" started-at="2019-05-04T10:54:00Z" data-provider="LoginData" finished-at="2019-05-04T10:54:19Z">
           <params>
             <param index="0">
               <value>
@@ -166,7 +166,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method status="FAIL" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.demo.testCases.TC_LoginDDT_002@70a9f84e]" name="loginDDT" duration-ms="8324" started-at="2019-05-04T08:43:12Z" data-provider="LoginData" finished-at="2019-05-04T08:43:21Z">
+        <test-method status="FAIL" signature="loginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.demo.testCases.TC_LoginDDT_002@70a9f84e]" name="loginDDT" duration-ms="9899" started-at="2019-05-04T10:54:19Z" data-provider="LoginData" finished-at="2019-05-04T10:54:29Z">
           <params>
             <param index="0">
               <value>
@@ -224,13 +224,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.testCases.TC_LoginDDT_002@70a9f84e]" name="tearDown" is-config="true" duration-ms="667" started-at="2019-05-04T08:43:21Z" finished-at="2019-05-04T08:43:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.testCases.TC_LoginDDT_002@70a9f84e]" name="tearDown" is-config="true" duration-ms="915" started-at="2019-05-04T10:54:29Z" finished-at="2019-05-04T10:54:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.demo.testCases.TC_LoginDDT_002 -->
       <class name="com.demo.testCases.TC_LoginTest_001">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.demo.testCases.TC_LoginTest_001@74294adb]" name="setup" is-config="true" duration-ms="12521" started-at="2019-05-04T08:41:58Z" finished-at="2019-05-04T08:42:10Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.demo.testCases.TC_LoginTest_001@74294adb]" name="setup" is-config="true" duration-ms="29389" started-at="2019-05-04T10:52:20Z" finished-at="2019-05-04T10:52:49Z">
           <params>
             <param index="0">
               <value>
@@ -241,17 +241,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.demo.testCases.TC_LoginTest_001@74294adb]" name="loginTest" duration-ms="2088" started-at="2019-05-04T08:42:10Z" finished-at="2019-05-04T08:42:13Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.demo.testCases.TC_LoginTest_001@74294adb]" name="loginTest" duration-ms="7583" started-at="2019-05-04T10:52:49Z" finished-at="2019-05-04T10:52:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.testCases.TC_LoginTest_001@74294adb]" name="tearDown" is-config="true" duration-ms="639" started-at="2019-05-04T08:42:13Z" finished-at="2019-05-04T08:42:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.testCases.TC_LoginTest_001@74294adb]" name="tearDown" is-config="true" duration-ms="623" started-at="2019-05-04T10:52:57Z" finished-at="2019-05-04T10:52:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.demo.testCases.TC_LoginTest_001 -->
       <class name="com.demo.testCases.TC_AddCustomerTest_003">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.demo.testCases.TC_AddCustomerTest_003@130f889]" name="setup" is-config="true" duration-ms="9745" started-at="2019-05-04T08:43:21Z" finished-at="2019-05-04T08:43:31Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.demo.testCases.TC_AddCustomerTest_003@130f889]" name="setup" is-config="true" duration-ms="12243" started-at="2019-05-04T10:54:30Z" finished-at="2019-05-04T10:54:42Z">
           <params>
             <param index="0">
               <value>
@@ -262,11 +262,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.demo.testCases.TC_AddCustomerTest_003@130f889]" name="addNewCustomer" duration-ms="18412" started-at="2019-05-04T08:43:31Z" finished-at="2019-05-04T08:43:49Z">
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.demo.testCases.TC_AddCustomerTest_003@130f889]" name="addNewCustomer" duration-ms="19924" started-at="2019-05-04T10:54:42Z" finished-at="2019-05-04T10:55:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.testCases.TC_AddCustomerTest_003@130f889]" name="tearDown" is-config="true" duration-ms="636" started-at="2019-05-04T08:43:49Z" finished-at="2019-05-04T08:43:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.testCases.TC_AddCustomerTest_003@130f889]" name="tearDown" is-config="true" duration-ms="825" started-at="2019-05-04T10:55:02Z" finished-at="2019-05-04T10:55:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
